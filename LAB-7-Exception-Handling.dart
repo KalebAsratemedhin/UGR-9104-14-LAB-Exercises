@@ -22,5 +22,7 @@ void main() {
     } else {
       print('An error occurred: $e');
     }
+  } finally {
+    print('Finally block executed');
   }
 }
